@@ -1,0 +1,10 @@
+Compile by typing out "make" in terminal. 
+Sounds have been implemented using the 'aplay' command using the system command in C++.
+To run without sounds type run with './game off' and to run WITH sounds run using './game on'.
+
+Extra Features implemented :-
+1) Sound effect for lasers
+2) A highscore system where the current highscores are stored in the file 'highscores' and in case the user gets a highscore, he/she is informed of the rank of their high score at the end of the game (Ex. "You got the 4th highest score!!" or "You got the 2nd highest score!!"...) and their score is accordingly updated in the 'highscores' file.
+3) The difficulty of the game constantly increases with passing time. Every 20 seconds the frequecy and the speed of the spiders is increased. 
+4) An opening screen to the game!!!!!
+5) The laser changes color when it's ready to shoot.
